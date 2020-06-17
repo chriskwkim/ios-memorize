@@ -20,6 +20,7 @@
 		73F2333B24968AA600D8D879 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2333A24968AA600D8D879 /* Array+Identifiable.swift */; };
 		73F2333D2496972500D8D879 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2333C2496972500D8D879 /* Array+Only.swift */; };
 		73F2333F2499C8E300D8D879 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2333E2499C8E300D8D879 /* Pie.swift */; };
+		73F233412499CF7300D8D879 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F233402499CF7300D8D879 /* Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		73F2333A24968AA600D8D879 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		73F2333C2496972500D8D879 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		73F2333E2499C8E300D8D879 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		73F233402499CF7300D8D879 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				73BEC0BF248F737B0055A4F3 /* EmojiMemoryGameView.swift */,
+				73F233402499CF7300D8D879 /* Cardify.swift */,
 				73F2333E2499C8E300D8D879 /* Pie.swift */,
 				73BEC0D12490BF980055A4F3 /* EmojiMemoryGame.swift */,
 				73BEC0CF2490BD7F0055A4F3 /* MemoryGame.swift */,
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F233412499CF7300D8D879 /* Cardify.swift in Sources */,
 				73F2333F2499C8E300D8D879 /* Pie.swift in Sources */,
 				73BEC0BC248F737B0055A4F3 /* AppDelegate.swift in Sources */,
 				73BEC0BE248F737B0055A4F3 /* SceneDelegate.swift in Sources */,
