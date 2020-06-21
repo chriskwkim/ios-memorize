@@ -32,9 +32,9 @@ struct CardView: View {
         }
     }
     
-//    @ViewBuilder
+    @ViewBuilder
     private func body(for size: CGSize) -> some View {
-        Group {
+    
         if card.isFaceUp || !card.isMatched {
             ZStack {
                 //Circle().padding(5).opacity(0.4)
@@ -44,7 +44,7 @@ struct CardView: View {
             }
 //            .modifier(Cardify(isFaceUp: card.isFaceUp))
             .cardify(isFaceUp: card.isFaceUp)
-        }
+        
         }
     }
     
